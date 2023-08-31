@@ -8,14 +8,14 @@ def read_csv(file_name):
         template = [row for row in reader]
     template.pop(0)
     for row in template:
-        row[3] = row[3].split(';')
+        row[5] = row[5].split(';')
 
     return template
 
 def get_template_index(channel, template_list):
     template_index = 0
     for post_template in template_list:
-          if channel  in post_template:
+          if channel in post_template:
               break
           elif template_index < len(template_list)-1:
               template_index +=1

@@ -1,0 +1,3 @@
+Url,BaseUrl,LinkDivClass,ArticleLinkClass,ArticleDivClass,Template,ChannelName,ChannelId
+https://www.ixbt.com,https://www.ixbt.com,rightnewslist-container,hyphens,b-article__content,heading;article_link;article_text,Channel 1,-
+https://3dnews.ru/news,https://3dnews.ru,marker_allfeed,entry-header,js-mediator-article,heading;article_link,Channel 2,-
